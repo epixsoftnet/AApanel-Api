@@ -11,7 +11,7 @@
 
 ---------------------------------------------------------------------------------------
 
-###Proje Start
+#Proje Start
 
     npm start  
 
@@ -19,7 +19,7 @@
     Browser http://127.0.0.1 go to
 
 ---------------------------------------------------------------------------------------
-###.env file
+#.env file
     
     Places that need to be changed in the .env file { port,bt_key,bt_url }
 
@@ -29,7 +29,7 @@
 
 -------------------------------------------------------------------------
 
-####Example : Adding DNS Manager with Post method
+#Example : Adding DNS Manager with Post method
 
     app.post('/AddDNS', async (req, res) => {
     
@@ -51,13 +51,13 @@
         }
     })
 
-####Example Output :
+#Example Output :
     
     {"status": true, "msg": "Add domain name successfully"}
 
 -------------------------------------------------------------------------
 
-####Example : Adding DNS Manager with GET method
+#Example : Adding DNS Manager with GET method
 
 
 
@@ -83,7 +83,7 @@
         }
     })
 
-####Example Output :
+#Example Output :
 
     {"status": true, "msg": "Add domain name successfully"}
 
